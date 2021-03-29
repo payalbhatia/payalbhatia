@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+/* Create three equal columns that floats next to each other */
+    .column {
+                float: left;
+                width: 50.%;
+                padding: 30px;
+                height: 300px; /* Should be removed. Only for demonstration 
+                }
+
+/* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+<title> Intro to HTML and little more</title>
+</head>
+
+<body background="ps2.jpg"); >
+    <h1> Intro To HTML  </h1>
+    <div class="row">
+        <div class="column" style="background-color: #10A99E;">
+             <h2> About me </h2>
+              <p>My name is Payal Bhatia. <br>I am a 'Data' enthusiastic individual
+                <br> with interests vested in 'Data Science'.
+                <br>I am hustling to acquire skills in discovering
+                <br> the insights hidden under huge data, 
+                <br>performing statistical analysis,Data Modeling.
+                <br> I am developing advanced skills in data mining, 
+                <br>statistics, and, machine learning. 
+                <br>I believe I am a self-learner, goal focussed,
+                <br> and purpose-driven with, good communication skills.
+                <br>I strive to create value. 
+            </p>
+        </div>
+        <div class="column" style="background-color: #10A99E;">
+            <figcaption>
+                <a href = https://www.linkedin.com/in/bhatiapayal/> Find me </a>
+            </figcaption>
+            <figure>
+                <img src= "H:\CE_WebPages\Payal.jpeg" alt="Payal's dp" style="width: 100%"; height="200px"; solid #FEDE00; margin-top:80px>
+            </figure> 
+        </div>
+    </div>>
+</body>
+</html>
+
